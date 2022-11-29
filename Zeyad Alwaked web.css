@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{ 
+    background-color: #2a6592;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.Loogo{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700px;
+    font-size: 1.8em;
+}
+.navi a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500px;
+    font-size: 1.1em;
+    padding: 30px;
+}
+.navi a:hover{
+    color: black;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/Image/background.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main h2{
+    color: aliceblue;
+    font-size: 3em;
+    font-weight: 500px;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 1.4em;
+    font-weight: 700px;
+}
+.main h3{
+    color: rgb(3, 31, 34);
+    font-size: 2em;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    margin-top:10px ;
+    margin-bottom: 30px;
+}
+.main .Socil-icon a{
+    font-size: 1.6em;
+    color: aliceblue;
+    border: solid aliceblue 1px;
+    border-radius: 10PX;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.View{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #2a6592;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.View:hover{
+    background-color: #143f60;
+    transform: scale(1.1);
+}
+.Icon a{
+    color: aliceblue;
+    font-size: 1.7em;
+    padding-right:30px;
+
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    color: #2a6592;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+.Content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    transition: 0.7s ease;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.Icon{
+    color: #2a6592;;
+    font-size: 8em;
+    text-align: center;
+}
+.Info {
+    text-align: center;
+}
+.Info h3 {
+    color: #2a6592;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+}
+.Cerit{
+    background-color: #2a6592;
+
+}
+.Cerit h2{
+    color: aliceblue;
+}
+.Cerit .Content{
+    margin-top: 30px;
+}
+.Cerit-Card{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.Cerit-Card:hover{
+    transform: scale(1.1);
+}
+.Cerit-img img{
+    width: 100%;
+}
+.Cerit-info{
+    padding: 1em;
+}
+.Cerit-Catou{
+    font-weight: 500;
+}
+.More-details{
+    text-decoration: none;
+    color: #2a6592;
+    font-weight: 800;
+}
+.More-details:hover{
+    color: #143f60;
+}
+.Content .Icon{
+    font-size: 4.5em;
+}
+.Content .Info p{
+    font-size: 1.5em;
+}
+.footer{
+    background-color: #2a6592;
+    color: aliceblue;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    
+}
+
+.footer-title a{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer-title a:hover{
+ color: #000;
+}
+.footer .Socil-icon a{
+    font-size: 1.6em;
+    border: solid aliceblue 1px;
+    border-radius: 10PX;
+    padding: 10px;
+    color: aliceblue;
+    margin-right: 10px;
+}
+@media (Max-width){
+    header{
+        padding: 12px 20px;
+    }
+    .navi a{
+        padding-left: 10px;
+    }
+    .Title{
+        font-size: 1.8em;
+    }
+    .Section{
+        padding: 80px 20px;
+    }
+    .main h2{
+        font-size: 1em;
+    }
+    .main h3{
+        font-size: 1.6em;
+    }
+    .Content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
